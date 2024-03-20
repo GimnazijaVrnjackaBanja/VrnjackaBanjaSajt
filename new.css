@@ -1,0 +1,52 @@
+body{
+	background-image:url("pozadina.jpg");
+	height:100%;
+	background-size:cover;
+	position:relative;
+	background-attachment: fixed; 
+}
+.navbar {
+    overflow: hidden;
+  }
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 14px 20px;
+	font-size:24px;
+    text-decoration: none;
+  }
+
+.mapa img{
+	max-width: 100%;
+    max-height: 100%;
+}
+.galerija {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	margin:35px;
+}
+
+h1{
+	color:white;
+	text-align:center;
+	font-size:80px;
+}
+.content{
+	display:flex;
+	align-items: center;
+	margin-left:50px;
+	margin-right:50px;
+	margin-bottom:70px;
+}
+p{
+	color:white;
+	font-size:22px;
+	margin-left:30px;
+	text-align:justify;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
